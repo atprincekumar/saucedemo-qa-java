@@ -94,6 +94,10 @@ public class ProductsPage extends BasePage {
 
     public CartPage openCart() {
         click(cartLink);
+        wait.until(ExpectedConditions.urlContains("cart.html"));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.id("checkout")
+        ));
         return new CartPage(driver);
     }
 
