@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Performance User Exploration" verbose="1" parallel="false">
+    <listeners><listener class-name="com.prince.qa.listeners.TestListener"/></listeners>
+    <test name="Performance User Login Timing">
+        <classes><class name="com.prince.qa.tests.bugs.PerformanceUserExplorationTests"/></classes>
+    </test>
+</suite>

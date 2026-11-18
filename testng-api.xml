@@ -1,0 +1,6 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ReqRes API Tests" verbose="1" parallel="false">
+    <test name="API Contract Tests">
+        <classes><class name="com.prince.qa.tests.api.ReqResApiTests"/></classes>
+    </test>
+</suite>
